@@ -1,0 +1,83 @@
+*{
+    margin:0px;
+    padding:0px;
+    scroll-behavior: smooth;
+
+}
+.cover{
+    background-image:url("img/pic1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-position: 15% 35%;
+}
+.dropdown .btn{
+    font-size: 20px;
+    color: #00269a;
+}
+.nav{
+    padding: 0px;
+    height: 130px;
+    color: #00269a;
+    justify-content: center;
+}
+
+.arrivals {
+    font-size: 40px;
+    color: #00269a;
+    margin-left: 38%;
+   
+}
+h3{
+    color: #00269a;
+}
+.card-body{
+    cursor: pointer;
+}
+.card-body:hover img{
+    transform: scale(0.95);
+}
+
+.socials img{
+    width: 50px;
+    height: 40px;
+    margin-bottom: 25%;
+}
+.navitem i{
+    cursor: pointer;
+}
+
+.scroll-to-top{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    padding:10px 15px;
+    background-color: #00269a;
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    cursor:pointer;
+    transition:all 0.5s ease 0s;
+}
+.scroll-to-top:hover{
+    background-color: #00134b;
+}
+.form{
+    padding: 5%;
+    text-align: center;
+}
+.form button{
+    background-color:#00269a;
+    color: #fff;
+    width: 100px;
+}
+.form input{
+    width: 220px;
+    color: #a8a8a8;
+}
+.form input,button{
+    height:50px;
+    border:1px solid #a8a8a8;
+    border-radius: 3px;
+}
